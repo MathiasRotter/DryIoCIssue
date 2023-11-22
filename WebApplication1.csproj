@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="Grpc.AspNetCore" />
+    <PackageReference Include="DryIoc.dll" />
+    <PackageReference Include="DryIoc.Microsoft.DependencyInjection" />
+
+    <!--<PackageReference Include="Tecan.MAP.Common.Units" />
+    <PackageReference Include="Tecan.MAP.Contracts.Services.DataStore" />
+    <PackageReference Include="Tecan.MAP.Contracts.Services.Logging" />
+    <PackageReference Include="Tecan.MAP.Services.Cryptography" />
+    <PackageReference Include="Tecan.MAP.Services.DataStore" />
+    <PackageReference Include="Tecan.MAP.Services.DependencyInjection.DryIoC" />
+    <PackageReference Include="Tecan.MAP.Services.Logging" />
+    <PackageReference Include="Tecan.MAP.Services.TimeService" />-->
+
+  </ItemGroup>
+
+</Project>
