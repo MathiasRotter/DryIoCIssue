@@ -8,19 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-      <PackageReference Include="Grpc.AspNetCore" />
-    <PackageReference Include="DryIoc.dll" />
-    <PackageReference Include="DryIoc.Microsoft.DependencyInjection" />
-
-    <!--<PackageReference Include="Tecan.MAP.Common.Units" />
-    <PackageReference Include="Tecan.MAP.Contracts.Services.DataStore" />
-    <PackageReference Include="Tecan.MAP.Contracts.Services.Logging" />
-    <PackageReference Include="Tecan.MAP.Services.Cryptography" />
-    <PackageReference Include="Tecan.MAP.Services.DataStore" />
-    <PackageReference Include="Tecan.MAP.Services.DependencyInjection.DryIoC" />
-    <PackageReference Include="Tecan.MAP.Services.Logging" />
-    <PackageReference Include="Tecan.MAP.Services.TimeService" />-->
-
+    <PackageReference Include="Grpc.AspNetCore" Version="2.40.0" />
+    <PackageReference Include="DryIoc.dll" Version="4.0.5" />
+    <PackageReference Include="DryIoc.Microsoft.DependencyInjection" Version="3.0.3" />
   </ItemGroup>
 
 </Project>
